@@ -1,3 +1,5 @@
+// Write a program to read the values of coefficients a, b and c of a quadratic equation ax2+bx+c=0 and find roots of the equation.
+
 #include<stdio.h>
 #include<math.h>
 

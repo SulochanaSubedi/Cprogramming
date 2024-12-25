@@ -1,3 +1,5 @@
+// Write a program to check whether input alphabet is vowel or not using if-else statement.
+
 #include<stdio.h>
 
 int main()

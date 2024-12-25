@@ -1,3 +1,5 @@
+// Write a program to get input of two or higher digit integer number and display in reverse order. 
+
 #include<stdio.h>
 
 int main()

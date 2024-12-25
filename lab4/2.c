@@ -1,3 +1,5 @@
+//. Write a program to find the largest and smallest among three entered numbers and also display whether the identified largest/smallest number is even or odd. 
+
 #include<stdio.h>
 
 int main()

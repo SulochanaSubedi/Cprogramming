@@ -1,3 +1,5 @@
+//Write a program that asks a number and test the number whether it is multiple of 5 or not, divisible by 7 but not by eleven. 
+
 #include <stdio.h>
 
 int main() {

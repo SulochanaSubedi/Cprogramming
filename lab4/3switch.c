@@ -1,3 +1,5 @@
+// Write a program to check whether input alphabet is vowel or not using switch statement.
+
 #include<stdio.h>
 
 int main()
