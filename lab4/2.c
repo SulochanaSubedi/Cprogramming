@@ -34,4 +34,5 @@ int main()
 	printf("largest number is even");
 	else
 	printf("largest number is odd");
+ return 0;
 }
