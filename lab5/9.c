@@ -5,7 +5,7 @@
 int main()
 {
 	int i, j;
-	float Y, sum=1.0;
+	float sum=1.0;
 	for(i=1; i<=10; i++)
 	{
 		float fact=1.0;
@@ -14,8 +14,7 @@ int main()
 			fact*=j;
 		}
 		sum+=((i*i)/fact);
-  Y=sum;
 	}
-	printf("%f",Y);
+	printf("Y=%f",sum);
 	return 0;
 }
