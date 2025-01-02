@@ -4,5 +4,27 @@
 
 int main()
 {
-	
+   char ch1;
+   float x,y;
+   printf("Enter two numers: ");
+   scanf("%f%f", &x, &y);
+   printf("Enter a operator (+, -, *, /): ");
+   scanf(" %c", &ch1);
+   if(ch1=='+')
+   {
+    printf("Addition is %.2f", x+y);
+   }	
+   else if(ch1=='-')
+   {
+    printf("Subtraction is %.2f", x-y);
+   }
+   else if(ch1=='*')
+   {
+    printf("Multiplication is %.2f", x*y);
+   }
+   else
+   {
+    printf("Division is %.2f", x/y);
+   }
+   return 0;
 }
