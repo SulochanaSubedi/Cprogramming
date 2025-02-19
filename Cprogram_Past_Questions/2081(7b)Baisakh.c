@@ -6,7 +6,6 @@ int hcf(int a, int b)
 	else
 	return a;
 }
-
 int main()
 {
 	int a, b;
