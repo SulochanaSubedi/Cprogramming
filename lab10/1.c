@@ -12,10 +12,10 @@ int main() {
     struct Student students[3];
     FILE *file;
     int i;
-    file = fopen("D:\\std.txt", "wb");
+    file = fopen("std.txt", "wb");
     
     for (i = 0; i < 3; i++) {
-        printf("Enter details for student %d:\n", i + 1);
+        printf("Enter details for student:\n");
         printf("Roll No: ");
         scanf("%d", &students[i].rollno);
         printf("Name: ");
@@ -36,7 +36,7 @@ int main() {
 
     fclose(file);
     
-    file = fopen("D:\\std.txt", "rb");
+    file = fopen("std.txt", "rb");
     
     printf("\nStudent Records:\n");
     for (i = 0; i < 3; i++) {
@@ -56,7 +56,7 @@ int main() {
 
 /*
 Output:
-Enter details for student 1:
+Enter details for student:
 Roll No: 18
 Name: Sulocahana
 Address: Khaireni

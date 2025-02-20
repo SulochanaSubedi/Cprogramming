@@ -19,5 +19,5 @@ int main()
 	}
 	else
 	printf("\nInvalid input!!!!!");
-	returrn 0;
+	return 0;
 }

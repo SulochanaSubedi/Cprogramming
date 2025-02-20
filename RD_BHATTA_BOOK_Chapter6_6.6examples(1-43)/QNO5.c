@@ -7,8 +7,8 @@ int main()
 	printf("\n Old balance");
 	scanf("%f",&balance);
 	printf("Enter gender of the account holder");
-	scanf("%c",&sex);
-	if(sex==f)
+	scanf(" %c",&sex);
+	if(sex=='f')
 	{
 		if(balance>5000)
 		 balance=balance+0.5*balance;

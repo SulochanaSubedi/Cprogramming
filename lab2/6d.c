@@ -1,4 +1,4 @@
-//Write a program to checkk odd or even number (d) using conditional operator.
+//Write a program to check odd or even number (d) using conditional operator.
 
 #include<stdio.h>
 

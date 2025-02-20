@@ -8,7 +8,7 @@ int main()
 	while(count<=n)
 	{
 		cur=pre1+pre2;
-		for(i=pre2+1;i<curr&&count++<n;i++)
+		for(i=pre2+1;i<cur&&count++<n;i++)
 	    printf("%d",i);
 	    pre1=pre2;
 	    pre2=cur;

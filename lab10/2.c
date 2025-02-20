@@ -17,3 +17,9 @@ int main() {
     return 0;
 }
 
+/*
+Output:
+In filec.txt:
+sseennn
+*/
+

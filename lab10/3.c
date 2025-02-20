@@ -18,3 +18,9 @@ int main() {
     return 0;
 }
 
+/*
+Output:
+Contents of the file:
+sseennn
+Total number of characters in file: 7
+*/
